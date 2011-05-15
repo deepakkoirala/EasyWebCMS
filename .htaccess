@@ -1,0 +1,17 @@
+RewriteEngine On
+# localhost
+RewriteBase /weblink/
+# live
+#RewriteBase /
+RewriteRule ^(wl-admin|admin|ckfinder|ckeditor)($|/) - [L]
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+#ErrorDocument 404 /404.html
+RewriteRule index.html$ index.php [L]
+RewriteRule ^gallery/([0-9]+)\.html$ index.php?galleryId=$1 [L]
+RewriteRule ^testimonials/([-A-Za-z0-9]+)\.html$ index.php?action=testimonials&$1 [L]
+RewriteRule ^spring/([-A-Za-z0-9]+)\.html$ index.php?grab=spring&title=$1 [L]
+RewriteRule ^autumn/([-A-Za-z0-9]+)\.html$ index.php?grab=autumn&title=$1 [L]
+
+RewriteRule ^([-A-Za-z0-9]+)/([-A-Za-z0-9]+)\.html$ index.php?action=$1&title=$2 [L]
+RewriteRule ^([-A-Za-z0-9]+)\.html$ index.php?title=$1 [L]

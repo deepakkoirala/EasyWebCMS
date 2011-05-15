@@ -1,0 +1,504 @@
+
+html, body {
+    background: url("../graphics/bg-check.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #000000;
+    cursor: default;
+    font-family: Tahoma,Arial,Verdana,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+select, textarea {
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    background: none repeat scroll 0 0 #3A809B;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 10px;
+}
+.lightbg {
+    background: none repeat scroll 0 0 #F0EBFF;
+}
+.linebg {
+    background: none repeat scroll 0 0 #3A809B;
+}
+.welcome_body_text {
+    color: #153574;
+}
+.bar_title1 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.normal1 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+.normal2 {
+    color: #8A0000;
+}
+.normal_b_b {
+    color: #5775B5;
+    font-weight: bold;
+}
+.text1 {
+    line-height: 20px;
+    padding: 7px;
+}
+.text2 {
+    line-height: 20px;
+    padding: 0 3px;
+}
+.text3 {
+    line-height: 16px;
+    padding: 3px;
+}
+.heading1 {
+    color: #004ED5;
+    font-size: 14px;
+    font-weight: bold;
+}
+.heading2 {
+    background-color: #3A809B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    padding: 3px;
+    text-align: left;
+}
+.headingtitle {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    padding: 3px;
+    text-align: center;
+}
+.heading3 {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    padding: 2px;
+    text-align: left;
+}
+.maintext {
+    font-size: 14px;
+    font-weight: bold;
+}
+.warning {
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.tabletitle, .pagingbg {
+    background: none repeat scroll 0 0 #D7F0FF;
+}
+.altbg {
+    background: none repeat scroll 0 0 #F4FBFF;
+}
+.cont_name {
+    background-color: #E3E3E3;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px;
+}
+.cont_name {
+    background-color: #E3E3E3;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px;
+}
+.err_msg {
+    background-color: #E8E8E8;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.succ_msg {
+    background-color: #FFFF00;
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+.bgborder {
+    background: none repeat scroll 0 0 #3A809B;
+}
+a, a:link, a:active, a:visited {
+    color: #7F9DB9;
+    text-decoration: underline;
+}
+a:hover {
+    color: #004CD6;
+    text-decoration: none;
+}
+a.normal1, a.normal1:link, a.normal1:active, a.normal1:visited {
+    color: #737373;
+    text-decoration: none;
+}
+a.normal1:hover {
+    color: #737373;
+    text-decoration: underline;
+}
+a.normal2:link, a.normal2:active, a.normal2:visited {
+    color: #8A0000;
+    text-decoration: none;
+}
+a.normal2:hover {
+    color: #8A0000;
+    text-decoration: underline;
+}
+a.footer_link:link, a.footer_link:active, a.footer_link:visited {
+    color: #047EEB;
+    text-decoration: none;
+}
+a.footer_link:hover {
+    color: #047EEB;
+    text-decoration: underline;
+}
+.footer_link {
+    color: #047EEB;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 16px;
+    padding: 3px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+}
+a.copyright:link, a.copyright:active, a.copyright:visited {
+    color: #666666;
+    text-decoration: none;
+}
+a.copyright:hover {
+    color: #666666;
+    text-decoration: underline;
+}
+.copyright {
+    color: #666666;
+    font-size: 11px;
+    font-weight: normal;
+    padding: 0 0 0 10px;
+    text-align: left;
+    text-decoration: none;
+}
+a.more, a.more:visited, a.more:link, a.more:active {
+    color: #248FC9;
+    font-weight: normal;
+    text-decoration: none;
+}
+a.more:hover {
+    color: #000000;
+    font-weight: normal;
+    text-decoration: underline;
+}
+.more {
+    color: #248FC9;
+    font-weight: normal;
+    text-decoration: none;
+}
+a.menu:link, a.menu:active, a.menu:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a.menu:hover {
+    color: #333333;
+    text-decoration: none;
+}
+.menu {
+    font-weight: normal;
+    text-decoration: none;
+}
+.navMenuOut {
+    color: #333333;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: normal;
+    height: 31px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.NavMenuOver {
+    background-color: #E6F5FF;
+    color: #333333;
+    cursor: pointer;
+    font-size: 11px;
+    height: 31px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+    text-decoration: none;
+}
+.tab_search_Out {
+    background-repeat: no-repeat;
+    color: #860000;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 103px;
+}
+.tab_search_Over {
+    background-repeat: no-repeat;
+    color: #D60000;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 103px;
+}
+a.tab_menu:link, a.tab_menu:active, a.tab_menu:visited {
+    color: #000000;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+}
+a.tab_menu:hover {
+    color: #333333;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+}
+.tab_menu {
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+a.tab_search:link, a.tab_search:active, a.tab_search:visited {
+    color: #860000;
+    text-align: center;
+    text-decoration: none;
+}
+a.tab_search:hover {
+    color: #860000;
+    text-align: center;
+    text-decoration: none;
+}
+.tab_search {
+    color: #860000;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 103px;
+}
+a.bottom_link:link, a.bottom_link:active, a.bottom_link:visited {
+    color: #000000;
+    text-decoration: none;
+}
+a.bottom_link:hover {
+    color: #5B6B00;
+    text-decoration: underline;
+}
+.bottom_link {
+    color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+select.search {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 10px;
+    width: 210px;
+}
+select.list1 {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    color: #000000;
+    font-size: 11px;
+    width: auto;
+}
+.text {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    padding-left: 2px;
+    width: 250px;
+}
+.textlong {
+    background-color: #FFFFFF;
+    border-color: #890101;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 10px;
+    height: 16px;
+    padding-left: 2px;
+    width: 300px;
+}
+input.file {
+    color: #000000;
+    font-size: 11px;
+    width: 250px;
+}
+.login {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #7C8373;
+    color: #000000;
+    font-size: 10px;
+    height: 12px;
+    width: 70px;
+}
+textarea {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #7F9DB9;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    overflow: auto;
+    padding-left: 2px;
+}
+input.button {
+    background-color: #5ACC31;
+    border: 1px solid #3A809B;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: normal;
+    height: 20px;
+    padding: 0 7px;
+}
+input {
+    background-color: #FFFFFF;
+    border: 1px solid #7F9DB9;
+}
+.btn_submit {
+    background-image: url("../images/search.jpg");
+    background-repeat: repeat-x;
+    border: 1px solid #FD803D;
+    color: #5772B5;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    height: 22px;
+    padding: 0 7px;
+}
+input.chk {
+    border: 0 none;
+}
+.box_blue {
+    border: 1px solid #526C9A;
+}
+.box_green {
+    border: 1px solid #9DCC8A;
+}
+.box_yellow {
+    border: 1px solid #D3B761;
+}
+.tpmenu {
+    border: 1px solid #848587;
+    font-size: 10px;
+    height: 16px;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+.hdr {
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.leftmenu {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+.tahomabold11 {
+    color: #163100;
+    font-family: Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+}
+.tahoma14bold {
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    padding-left: 10px;
+}
+.mouseOve {
+    color: #3A809B;
+    text-decoration: none;
+}
+.mouseOute {
+    color: #000000;
+    text-decoration: none;
+}
+a.mycustum:link {
+    color: #000000;
+    text-decoration: underline;
+}
+A.mycustum:visited {
+    color: #000000;
+    text-decoration: underline;
+}
+A.mycustum:hover {
+    color: #FF3300;
+    text-decoration: none;
+}
+A.mycustum:active {
+    color: #FF3300;
+    text-decoration: underline;
+}
+.tahomawhite12bold {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+}
+.hdrwhite {
+    color: #FFFFFF;
+    font-family: Tahoma;
+    font-size: 18px;
+}
+a.headLink, a.headLink:link, a.headLink:active, a.headLink:visited {
+    color: #FFBDFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 18px;
+    padding: 3px;
+    text-align: left;
+    text-decoration: none;
+}
+a.headLink:hover {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    height: 18px;
+    padding: 3px;
+    text-align: left;
+    text-decoration: none;
+}
+#listtable tr:hover:nth-child(n+3) {
+    background: none repeat scroll 0 0 #D9E0FA;
+}

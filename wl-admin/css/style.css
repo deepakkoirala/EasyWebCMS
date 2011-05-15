@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding:0px;
+	margin:0px;
+}
+
+#wrapper {
+	width:990px;
+	height:auto;
+	margin:0 auto;
+	padding-top:150px;
+}
+
+#adminid1 {
+	width:570px;
+	height:280px;
+	background-image:url(../images/admin-bg.png);
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
+#adminid2 {
+	width:285px;
+	height:198px;
+	float:left;
+	padding-left:270px;
+	padding-right:15px;
+	padding-top:41px;
+}
+
+#adminid3 {
+	width:285px;
+	height:198px;
+	float:left;
+	background-image:url(../images/login-bg.png);
+	background-repeat:no-repeat;
+}
+
+.adminid4 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:600;
+	color:#000;
+	padding-top:15px;
+	padding-left:15px;
+}
+
+.adminid5{
+	font-family:Tahoma;
+	font-size:18px;
+	color:#F00;
+	padding-left:15px;
+	padding-top:1px;
+	text-shadow: 4px 4px 6px #fff;
+}
+
+#adminid6 {
+	width:285px;
+	height:71px;
+	float:left;
+}
+
+.adminid7 {
+	width:51px;
+	height:71px;
+	float:left;
+}
+.adminid8 {
+	width:136px;
+	height:71px;
+	float:left;
+}
+.adminid9 {
+	width:98px;
+	height:71px;
+	float:right;
+}
+
+.adminfillid10 {
+	width:126px;
+	height:auto;
+	float:right;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:1px;
+}
+
+.spaceid1 {
+	height:2px;
+	clear:both;
+}
+
+#loginid1 {
+	width:131px;
+	height:auto;
+	float:left;
+	padding-left:5px;
+}
+
+
+
+.submitf {
+	width:69px;
+	height:15px;
+	float:left;
+	background-image:url(../images/login-menu.jpg);
+	background-repeat:repeat-x;
+}
+
+.spaceid2 {
+	height:7px;
+	clear:both;
+}
+
+.login {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	text-align:center;
+	padding-top:1px;
+	
+}
+
+#hintid1 {
+	width:234px;
+	height:auto;
+	float:left;
+	padding-left:51px;
+	padding-top:15px;
+}
+
+#hintid2 {
+	width:234px;
+	height:auto;
+	float:left;
+}
+
+.hintid3 {
+	width:117px;
+	height:auto;
+	float:left;
+}
+
+.hintid4 {
+	width:117px;
+	height:auto;
+	float:right;
+}
+
+.hintid5 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:center;
+	color:#333;
+}
+
+.hintid6 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:center;
+	color:#333;
+	padding-top:5px;
+}
+
+#adminid10 {
+	width:285px;
+	height:auto;
+	float:left;
+	padding-bottom:10px;
+}
+
+#footerid1 {
+	width:570px;
+	float:left;
+	padding-top:15px;
+	font:13px Arial, Helvetica, sans-serif;
+	text-align:center;
+
+}
+
+.footerid2 {
+	width:285px;
+	height:20px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000;
+	text-align:right;
+}
+.footerid3 {
+	width:285px;
+	height:20px;
+	float:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000;
+}
+
+.footerid4 a {
+	color:#000;
+	text-decoration:none;
+	border:0px;
+	outline:0px;
+}
+.footerid4 a:hover {
+	color:#339;
+}
+
